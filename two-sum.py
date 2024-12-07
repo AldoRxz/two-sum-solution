@@ -24,10 +24,10 @@ class Solution:
 solution = Solution()
 
 # # Example 1
-# nums = [2, 7, 11, 15]
-# target = 9
-# result = solution.twoSum(nums, target)
-# print(result)  # Output: [0, 1]
+nums = [2, 7, 11, 15]
+target = 9
+result = solution.twoSum(nums, target)
+print(result)  # Output: [0, 1]
 
 # Example 2
 nums = [3, 2, 4]
@@ -36,7 +36,7 @@ result = solution.twoSum(nums, target)
 print(result)  # Output: [1, 2]
 
 # # Example 3
-# nums = [3, 3]
-# target = 6
-# result = solution.twoSum(nums, target)
-# print(result)  # Output: [0, 1]
+nums = [3, 3]
+target = 6
+result = solution.twoSum(nums, target)
+print(result)  # Output: [0, 1]
