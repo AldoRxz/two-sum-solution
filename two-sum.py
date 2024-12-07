@@ -9,7 +9,10 @@ class Solution:
             print(f"index: {i}, value: {num}")
             rest = target - num
             
+            print('rest value:', rest)
             if rest in num_to_index:
+                print('rest', rest)
+                print("i", i)
                 return [num_to_index[rest], i]
             
             num_to_index[num] = i
